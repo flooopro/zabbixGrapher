@@ -11,9 +11,9 @@ jQuery(function() {
     url: '/api_jsonrpc.php',            // zabbix API url
     timeout: 5000,                      // to API in msec
     <?php
-        echo 'ssid: \'' . htmlspecialchars($_COOKIE["zbx_sessionid"]) . '\',
-';
+        echo 'ssid: \'' . htmlspecialchars($_COOKIE["zbx_sessionid"]) . '\', // key to API, get from current logged in user';
     ?>
+
     pagelen: 24,                        // graphs per page
     width: 600,                         // of graph
     height: 200                         // of graph
