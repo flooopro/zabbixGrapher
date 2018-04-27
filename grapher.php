@@ -19,7 +19,7 @@ ob_end_flush();
 ?>
 
 <script src="grapher/chosen.jquery.js" type="text/javascript"></script>
-<script src="grapher/grapher.js" type="text/javascript"></script>
+<script src="grapher/grapher.js.php" type="text/javascript"></script>
 <link rel="stylesheet" href="grapher/chosen.css">
 <link rel="stylesheet" href="grapher/grapher.css">
 
