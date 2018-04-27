@@ -1,4 +1,7 @@
 # zabbixGrapher
+* CHANGES IN THIS FORK: changed grapher.js to grapher.js.php (The zbx_sessionid is dyn. included by PHP)
+This should solve the problem with the httponly-flag.
+
 This is one page js application for quick search/view zabbix graphs, dinamically graph any collected item
 * First step is to select host, just start typing HostGroup name or Hostname
 ![Host](https://habrastorage.org/files/f00/e9b/aa9/f00e9baa94654dd7a4b21f3aab706661.png)  
